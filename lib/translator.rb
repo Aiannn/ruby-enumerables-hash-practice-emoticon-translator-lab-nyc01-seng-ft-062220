@@ -7,7 +7,7 @@ def load_library(path)
   newHash = {}
   
   emoticons.each do |key, value| 
-    newHash[key] = key
+    newHash[key] = {}
     newHash[key][:english] = value[0]
     newHash[key][:japanese] = value[1]
   end
