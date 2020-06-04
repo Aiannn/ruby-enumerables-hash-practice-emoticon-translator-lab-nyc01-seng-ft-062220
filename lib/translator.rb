@@ -14,6 +14,8 @@ def load_library(path)
   puts newHash
 end
 
+load_library(path)
+
 
 
 def get_japanese_emoticon
